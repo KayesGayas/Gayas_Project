@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q1 Project</title>
+  <style>
+    body {
+      font-family: merriweather; 
+      margin: 0;
+      padding: 0;
+      background-image: url(https://i.pinimg.com/736x/4b/fa/98/4bfa98661a892cea58281eb49891e1bd.jpg);
+    }
+    header {
+      background-color:#380d0d;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px;
+      background-color: #730a0a;
+    }
+    .hero img {
+      width: 100px;
+      border-radius: 50%;
+    }
+    .hero h2 {
+      margin: 10px 0 5px;
+      color: white;
+    }
+    .hero p {
+      font-style: italic;
+      color: white;
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h3 {
+      background-color: #8a2f2f;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .works {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      text-align: center;
+    }
+    .works img {
+      width: 80%;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .contact form {
+      background:#d69a9a;
+      color: #e8c1c1;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: auto;
+    }
+    .contact input, .contact textarea, .contact select {
+      width: 95%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      color; #e8c1c1;
+    }
+    .contact button {
+      width: 100%;
+      padding: 10px;
+      background: white;
+      color: #c77575;
+      border: dotted;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact button:hover {
+      background: #4d0f0f;
+
+
+    }
+    footer {
+      background: white;
+      color: #4d1818;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .about {
+      width: 100%;
+      line-height: 100%;
+      padding: 10px;
+      background: white;
+      color: #e8c1c1;
+      border: dotted;
+      border-radius: 5px
+
+    }
+    .works {
+      background-color:##e8c1c1 ;
+      width: 100%;
+      line-height: 100%;
+      padding: 10px;
+      background: white;
+      color: #e8c1c1;
+      border: dotted;
+      border-radius: 5px
+
+  </style>
+</head>
+<body>
+   <header style="background-color:#4a0a06; padding:15px; color:white;">
+    <div><strong>💕My Portfolio</strong></div>
+    <nav style="float:right;">
+      <a href="#about" style="color:white; margin-left:20px;">About Me</a>
+      <a href="#works" style="color:white; margin-left:20px;">My Works</a>
+      <a href="#contact" style="color:white; margin-left:20px;">Contact </a>
+    <nav>
+
+  </header>
+
+  <div class="hero">
+    <img src="C:\Users\Kailey Cassidy\OneDrive\Pictures\Screenshots\Screenshot 2025-10-01 133808.png" alt="Avatar">
+    <h2>Hello, I'm <span style="color: #cf4e4e ;">Kailey Gayas</span></h2>
+    <p>Forced Web Designer</p>
+  </div>
+
+  <section id="about">
+    <h3>About Me</h3>
+    <p class="about">
+     HELLOOOO !! Im Kailey Gayas and I enjoy eating delicious food and sleeping whenever I can. Playing volleyball is one of my favorite hobbies because it’s fun and active. I also love listening to music since it helps me relax and feel happy. These things make me who I am and bring joy to my everyday life.
+  </section>
+
+  <section id="works">
+    <h3>My Works</h3>
+    <div id="works" class="works">
+      <div>
+        <h3 href=file:///C:/Users/Kailey%20Cassidy/OneDrive/Desktop/School%20SY25-26/1ST%20Q/ICT%201/Campus_ICT9Section_Q1Drill1_Gayas_Kailey.html>My Personal SlamBook</h3>
+        <img src="C:\Users\Kailey Cassidy\OneDrive\Pictures\Screenshots\Screenshot 2025-10-01 131513.png">
+        <p>🎈HTML & CSS Projects<br>🎈 Personal Blog<br>🎈 School Portfolio</p>
+      </div>
+      <div>
+        <h3 href=file:///C:/Users/Kailey%20Cassidy/OneDrive/Desktop/School%20SY25-26/1ST%20Q/ICT%201/Campus_ICT9Section_Q1SW1_Gayas_Kailey.html>My Top 3 Spotify Artist</h3>
+        <img src="C:\Users\Kailey Cassidy\OneDrive\Pictures\Screenshots\Screenshot 2025-10-01 134301.png" alt="Spotify Playlist">
+        <p>🎈 HTML & CSS Projects<br>🎈 Fun Life and Images
+          <br>🎈 Spotify Playlist</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>Contact Me</h3>
+    <form>
+ <label for="">Name: </label>
+       <br> 
+       <input type="text" id="name" name="name" placeholder="Enter you Name"> 
+       <br><br>
+
+       <label for="email">Email: </label>
+       <br> 
+       <input type="Email" id="email" name="email" placeholder="Enter Your Email.."> 
+       <br><br>
+
+      
+      <label>How did you find me?</label>
+      <select>
+        <option>--SELECT--</option>
+        <option>Facebook</option>
+        <option>Instagram</option>
+        <option>Twitter</option>
+        <option>Discord</option>
+      </select>
+       <label for="genre">Services Interested in:</label>
+       <br>
+       <input type="checkbox" id="genre" name="Robotics" value="Robotics">
+       <label for="Robotics">Robotics</label>
+       <input type="checkbox" id="genre" name="GraphicDesign" value="GraphicDesign">
+       <label for="GraphicDesign">Graphic Design</label>
+       <input type="checkbox" id="genre" name="WebDesign" value="WebDesign">
+       <label for="WebDesign">Web Design</label>
+
+      <textarea rows="3" placeholder="Any Feedback?"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Kailey Gayas. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+o
